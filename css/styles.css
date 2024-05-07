@@ -36,7 +36,7 @@ header{
 .menu {
     margin: -75px; 
     margin-inline-start: 500px;
-    margin-inline-end: 10px;
+    margin-inline-end: 150px;
     
     
 
@@ -77,12 +77,40 @@ body{
     height: 300px;
     border-radius: 35px;
     display: inline-block;
-    vertical-align: -100px;
     margin-left: 105px;
     font-size: 22px;
     padding: 30px 30px;
 }
+.paragrafo3 {
+    background-color: #E7BCF2;
+    width: 400px;
+    height: 300px;
+    border-radius: 35px;
+    margin-left: 105px;
+    font-size: 22px;
+    padding: 5px 30px 90px 30px;
+    margin-top: 100px;
+}
+.paragrafo4{
+    background-color: #E7BCF2;
+    width: 400px;
+    height: 300px;
+    border-radius: 35px;
+    font-size: 22px;
+    padding: 5px 30px 90px 30px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
 
+.paragrafo4 img{
+    margin-left: 150px;
+}
+.img3{
+    padding: 30px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 135px;
+}
 footer {
 	background-color: #2BAB6E;
 	color: #fff;
@@ -105,4 +133,9 @@ footer li {
 footer a {
 	color: #fff;
 	text-decoration: none;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
 }
