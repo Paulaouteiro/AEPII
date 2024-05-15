@@ -6,7 +6,7 @@
 
 .imgTopo{
     display: flex;
-    width:1505px ;
+    width:1390px ;
     height:290px ;
 }
 
@@ -19,7 +19,7 @@
 
 header{
     background-color: #2BAB6E;
-    width: 1505px;
+    width:1390px ;
     height: 371px;
     align-items: center;
 }
@@ -57,50 +57,59 @@ body{
     margin-left: 135px;
 }
 
-.paragrafo{
-    background-color: #E7BCF2;
-    width: 400px;
-    height: 300px;
-    border-radius: 35px;
-    display: inline-block;
-    vertical-align: 200px;
-    margin-left: 110px;
-    font-size: 28px;
-    padding: 30px 30px;
+
+section ul img{
+    margin-bottom: 20px;
+    width: 130px;
+    height: 150px;  
+    box-shadow: 4px 4px 12px #aaaa;
 }
 
-.paragrafo2{
-    background-color: #E7BCF2;
-    width: 400px;
-    height: 300px;
-    border-radius: 35px;
-    display: inline-block;
-    vertical-align: -100px;
-    margin-left: 105px;
-    font-size: 22px;
-    padding: 30px 30px;
+section ul {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+    width: 100%; 
+}
+
+main h2 {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+main section p {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 footer {
-	background-color: #2BAB6E;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
-	margin-top: 50px;
+    background-color: #2BAB6E;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 footer ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 footer li {
-	display: inline-block;
-	margin: 0 10px;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 footer a {
-	color: #fff;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
