@@ -1,42 +1,47 @@
+
 .menu ul{
-    display: flex;
-    justify-content: space-evenly;
-    
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu li{
+  text-decoration: none;
+  text-decoration-color: none;
+
 }
 
 .imgTopo{
-    display: flex;
-    width:1505px ;
-    height:290px ;
+  display: flex;
+  width:100%;
+  height:290px ;
 }
 
 .aep {
-    vertical-align: 0.71cm;
-    display: inline-block;
-    margin-left: 20px;
-    color: white;
+  vertical-align: 0.71cm;
+  display: inline-block;
+  margin-left: 20px;
+  color: white;
 }
 
 header{
-    background-color: #2BAB6E;
-    width: 1505px;
-    height: 371px;
-    align-items: center;
+  background-color: #2BAB6E;
+  width:100% ;
+  height: 371px;
+  align-items: center;
 }
+
 .menu a{
-    background: #E7BCF2;
-    padding: 10px 20px;
-    border-radius: 15px;
-    text-decoration-color: none;
-    color: white;    
-    text-decoration: none;
+  background: #E7BCF2;
+  padding: 10px 20px;
+  border-radius: 15px;
+  color: white;    
+  text-decoration: none;
 }
 
 .menu {
   margin: -75px; 
-  margin-inline-start: 500px;
+  margin-inline-start: 30%;
   margin-inline-end: 10px;
-
 }
 
 body{
