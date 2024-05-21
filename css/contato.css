@@ -65,27 +65,38 @@ section ul{
     font-size: 15px;
 }
 
-section {
-    
-background-color: #E7BCF2;
-width: 600px;
-height: 100px;
-border-radius: 35px;
-padding: 5px 30px 90px 30px;
-margin-top: 30px;
-
+main{
+    display: flex;
 }
 
-#s
+section {
+    margin-right: 80px;
+    margin-left: 80px;
+    background-color: #E7BCF2;
+    width: 900px;
+    height: 400px;
+    border-radius: 35px;
+    padding: 5px 30px 90px 30px;
+    margin-top: 30px;
+}
 
-main h2 {
+section ul{
+    font-size: 22px;
+}
+
+section ul img{
+    width: 30px;
+    height: 30px;
+}
+
+#titulo {
     display: block;
     text-align: center;
     margin-bottom: 20px;
   }
 
 
-  footer {
+footer {
     background-color: #2BAB6E;
     color: #fff;
     padding: 20px;

@@ -116,6 +116,14 @@ body{
     border-radius: 50px;
     margin-left: 135px;
 }
+
+main{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
 footer {
 	background-color: #2BAB6E;
 	color: #fff;
